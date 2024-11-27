@@ -1,0 +1,24 @@
+site_name: AlgoTrade
+theme:
+  name: readthedocs
+  features: 
+    - navigation.tabs
+    - navigation.expand
+
+
+nav:
+  - Overview: index.md
+  - Tickers:
+      - SP500: tickers/sp500.md
+      - NASDAQ: tickers/nasdaq.md
+      - DOWNJONES: tickers/downjones.md
+      - OTHERS: tickers/others.md
+  - Ticker:
+      - Info: ticker/info.md
+      - History: ticker/history.md
+      - Financials: ticker/financials.md
+      - Options: ticker/options.md
+      - Holders: ticker/holders.md
+  - Screener:
+      - Most Active: screener/most_active.md
+      - Bullish/Bearish: screener/bullish_bearish.md
